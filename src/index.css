@@ -1,0 +1,42 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    background-color: #2a2a2a;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow-y: scroll;
+    /* Always show scrollbar */
+}
+
+/* Create space for scrollbar */
+body::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust as needed */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #f6c985;
+    border-radius: 15px;
+    /* Scrollbar thumb color */
+}
+
+/* Prevent content shift */
+body {
+    padding-right: 10px;
+    /* Equal to scrollbar width */
+}
+
+button {
+
+    cursor: pointer;
+    transition: border-color 0.25s;
+}

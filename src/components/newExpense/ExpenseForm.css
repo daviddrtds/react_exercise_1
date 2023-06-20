@@ -1,0 +1,50 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.new-expense__control label {
+    color: #3b3b3b;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-expense__control input {
+    color: #3b3b3b;
+    background-color: #fbe7c9;
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #fbe7c9;
+    width: 14rem;
+    max-width: 100%;
+}
+
+
+.new-expense__control input:focus {
+    border: 1px solid #fbe7c9;
+}
+
+
+.new-expense__actions {
+    text-align: right;
+
+}
+
+.new-expense__actions .cancel {
+    background-color: #fbe7c9;
+    border: 1px solid #fbe7c9;
+    color: #616161;
+}
+
+.new-expense__actions .cancel:hover,
+.new-expense__actions .cancel:active {
+    background-color: #f9deb6;
+    border-color: #f9deb6;
+}
